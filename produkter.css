@@ -108,7 +108,7 @@ body {
     background: #563434;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .container {
      max-width: 800px;
     }

@@ -81,9 +81,9 @@ p {
     display: inline-block;
     background: #ff523b;
     color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
+    padding: 16px 60px;
+    margin: 60px 0;
+    border-radius: 60px;
     transition: background 0.5s;
 }
 
@@ -93,6 +93,7 @@ p {
 
 .header {
     background: radial-gradient(#fff, #f49797);
+    height: 600px;
 }
 
 .header .row {
@@ -110,5 +111,8 @@ footer {
 @media (max-width: 800px) {
 .container {
  max-width: 800px;
+}
+.header {
+    height: 800;
 }
 }
