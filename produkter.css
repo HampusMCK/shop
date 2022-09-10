@@ -107,3 +107,9 @@ body {
 .btn:hover {
     background: #563434;
 }
+
+@media (max-width: 1000px) {
+    .container {
+     max-width: 800px;
+    }
+}
